@@ -20,7 +20,6 @@ import {
   ChevronDownIcon,
   Cog6ToothIcon,
   InboxArrowDownIcon,
-  LifebuoyIcon,
   PowerIcon,
   RocketLaunchIcon,
   Bars2Icon,
@@ -31,8 +30,7 @@ import { Link } from "react-router-dom";
 const profileMenuItems = [
   { label: "Мой профиль", icon: UserCircleIcon },
   { label: "Изменить профиль", icon: Cog6ToothIcon },
-  { label: "Входящие", icon: InboxArrowDownIcon },
-  { label: "Помощь", icon: LifebuoyIcon },
+  { label: "Настройки", icon: Cog6ToothIcon},
   { label: "Выход", icon: PowerIcon },
 ];
 

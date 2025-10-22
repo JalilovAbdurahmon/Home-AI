@@ -18,6 +18,7 @@ import {
   Cog6ToothIcon,
   InboxIcon,
   PowerIcon,
+  LifebuoyIcon,
 } from "@heroicons/react/24/solid";
 import { ChevronRightIcon, ChevronDownIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
@@ -257,16 +258,9 @@ export function MultiLevelSidebar() {
 
         <ListItem className="hover:bg-white/10 text-[#C8EFFF] hover:text-[#C8EFFF] transition-all rounded-lg">
           <ListItemPrefix>
-            <UserCircleIcon className="h-5 w-5 text-cyan-300" />
+            <LifebuoyIcon className="h-5 w-5 text-cyan-300" />
           </ListItemPrefix>
-          Профиль
-        </ListItem>
-
-        <ListItem className="hover:bg-white/10 text-[#C8EFFF] hover:text-[#C8EFFF] transition-all rounded-lg">
-          <ListItemPrefix>
-            <Cog6ToothIcon className="h-5 w-5 text-cyan-300" />
-          </ListItemPrefix>
-          Настройки
+          Помощь
         </ListItem>
 
         <ListItem className="hover:bg-white/10 text-red-900 hover:text-red-900 transition-all rounded-lg">

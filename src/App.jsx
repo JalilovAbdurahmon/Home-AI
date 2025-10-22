@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div>
       <Routes>
-        {/* <Route index element={<SimpleRegistrationForm />} /> */}
+        <Route index element={<SimpleRegistrationForm />} />
         <Route path='/' element={<Layout />}>
             <Route path='home' element={<Home />} />
             <Route path='xozTovar' element={<XozTovar />} />
